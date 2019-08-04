@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Beth+Ellen|Calligraffitti&display=swap');
 #mainNav {
+  margin: 0;
   min-height: 56px;
   background-color: $black;
   .navbar-toggler {
@@ -22,7 +23,7 @@
     font-weight: 700;
     padding: .9rem 0;
   }
-  .nav-link{ 
+  .nav-link{
     color: $white;
   }
   .navbar-nav {
