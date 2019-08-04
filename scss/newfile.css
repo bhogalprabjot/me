@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Beth+Ellen|Calligraffitti&display=swap");
+#mainNav {
+  min-height: 56px;
+  background-color: #000000; }
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #5c3f5c;
+    border: 1px solid #5c3f5c; }
+    #mainNav .navbar-toggler:focus {
+      outline: none; }
+  #mainNav .navbar-brand {
+    color: #fff;
+    font-family: 'Beth Ellen', cursive;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    padding: .9rem 0; }
+  #mainNav .nav-link {
+    color: #fff; }
+  #mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: none;
+    background-color: transparent; }
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent; }
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color: transparent;
+      transition: background-color 0.3s ease-in-out; }
+      #mainNav .navbar-brand {
+        font-family: 'Beth Ellen', cursive;
+        font-family: 'Calligraffitti', cursive;
+        padding: .5rem 0;
+        color: rgba(255, 255, 255, 0.5); }
+      #mainNav .nav-link {
+        transition: none;
+        padding: 2rem 1.5rem;
+        color: rgba(255, 255, 255, 0.5); }
+        #mainNav .nav-link:hover {
+          color: rgba(255, 255, 255, 0.75); }
+        #mainNav .nav-link:active {
+          color: #fff; }
+      #mainNav.navbar-shrink {
+        background-color: #fff; }
+        #mainNav.navbar-shrink .navbar-brand {
+          color: #5c3f5c;
+          font-family: 'Beth Ellen', cursive;
+          font-family: 'Calligraffitti', cursive; }
+        #mainNav.navbar-shrink .nav-link {
+          color: #000000;
+          padding: 1.5rem 1.5rem 1.25rem;
+          border-bottom: 0.25rem solid transparent; }
+          #mainNav.navbar-shrink .nav-link:hover {
+            color: #5c3f5c; }
+          #mainNav.navbar-shrink .nav-link:active {
+            color: #2f202f; }
+          #mainNav.navbar-shrink .nav-link.active {
+            color: #5c3f5c;
+            outline: none;
+            border-bottom: 0.25rem solid #5c3f5c; } }
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+  .masthead h1 {
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; }
+  .masthead h2 {
+    max-width: 20rem;
+    font-size: 1rem; }
+  @media (min-width: 768px) {
+    .masthead h1 {
+      font-size: 4rem;
+      line-height: 4rem; } }
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      padding: 0; }
+      .masthead h1 {
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+        letter-spacing: 0.8rem; }
+      .masthead h2 {
+        max-width: 30rem;
+        font-size: 1.25rem; } }
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -340px 0 0 -450px;
+  width: 900px;
+  height: 600px; }
+
+.legend {
+  float: left;
+  width: 250px;
+  margin-top: 140px; }
+
+#content h1 {
+  font-family: 'Cabin Sketch', arial, serif;
+  text-shadow: 3px 3px 0 #ddd;
+  color: #193340;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: right; }
+
+.skills {
+  float: left;
+  clear: both;
+  width: 100%; }
+
+.skills ul,
+.skills li {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.skills li {
+  float: right;
+  clear: both;
+  padding: 0 15px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  margin-bottom: 1px;
+  font-size: 18px; }
+
+.skills .jq {
+  background: #97BE0D; }
+
+.skills .css {
+  background: #D84F5F; }
+
+.skills .html {
+  background: #88B8E6; }
+
+.skills .php {
+  background: #BEDBE9; }
+
+.skills .sql {
+  background: #EDEBEE; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #2D2D2D;
+  color: #EAEAEA;
+  padding: 20px 0; }
+
+.footer a {
+  color: #EAEAEA; }
+
+.footer a:hover {
+  color: #E4842C; }
+
+.footer .inside {
+  font-family: 'Cabin Sketch', arial, serif;
+  font-size: 22px;
+  text-align: center; }
+
+#diagram {
+  float: right;
+  width: 600px;
+  height: 600px; }
+
+.get {
+  display: none; }
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0; }
+
+.btn-primary {
+  background-color: #5c3f5c; }
+  .btn-primary:hover {
+    background-color: #3e2a3e; }
+  .btn-primary:focus {
+    background-color: #3e2a3e;
+    color: white; }
+  .btn-primary:active {
+    background-color: #2f202f !important; }
+
+.about-section {
+  padding-top: 30rem; }
+  .about-section p {
+    margin-bottom: 5rem; }
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #000000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px; }
+
+/* container-timeline around content */
+.container-timeline {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%; }
+
+/* The circles on the timeline */
+.container-timeline::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  background-color: white;
+  border: 4px solid #5c3f5c;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1; }
+
+/* Place the container-timeline to the left */
+.left {
+  left: 0; }
+
+/* Place the container-timeline to the right */
+.right {
+  left: 50%; }
+
+/* Add arrows to the left container-timeline (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white; }
+
+/* Add arrows to the right container-timeline (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent; }
+
+/* Fix the circle for container-timeline on the right side */
+.right::after {
+  left: -10px; }
+
+/* The actual content */
+.content-timeline {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px; }
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 992px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px; }
+
+  /* Full-width container-timeline-timeline-timeline-timeline-timeline-timeline-timeline-timeline-timeline-timelines */
+  .container-timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px; }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container-timeline::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent; }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 20px; }
+
+  /* Make all right container-timeline-timeline-timeline-timeline-timeline-timeline-timeline-timeline-timeline-timelines behave like the left ones */
+  .right {
+    left: 0%; } }
+.projects-section {
+  padding: 10rem 0; }
+  .projects-section .featured-text {
+    padding: 2rem; }
+    @media (min-width: 992px) {
+      .projects-section .featured-text {
+        padding: 0 0 0 2rem;
+        border-left: 0.5rem solid #5c3f5c; } }
+  .projects-section h1 {
+    text-align: center; }
+  .projects-section .project-text {
+    padding: 3rem;
+    font-size: 90%; }
+    @media (min-width: 992px) {
+      .projects-section .project-text {
+        padding: 5rem; }
+        .projects-section .project-text hr {
+          border-color: #5c3f5c;
+          border-width: .25rem;
+          width: 30%; } }
+
+.signup-section {
+  padding: 10rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
+  .signup-section .form-inline input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0; }
+
+.contact-section {
+  padding: 5rem 0 0; }
+  .contact-section .card {
+    border: 0;
+    width: 400px;
+    float: none;
+    border-bottom: 0.25rem solid #5c3f5c; }
+    .contact-section .card h4 {
+      font-size: 0.8rem;
+      font-family: 'Varela Round';
+      text-transform: uppercase;
+      letter-spacing: 0.15rem; }
+    .contact-section .card hr {
+      border-color: #5c3f5c;
+      border-width: 0.25rem;
+      width: 3rem; }
+  .contact-section .social {
+    margin-top: 5rem; }
+    .contact-section .social a {
+      text-align: center;
+      height: 3rem;
+      width: 3rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 100%;
+      line-height: 3rem;
+      color: rgba(255, 255, 255, 0.3); }
+      .contact-section .social a:hover {
+        color: rgba(255, 255, 255, 0.5); }
+      .contact-section .social a:active {
+        color: #fff; }
+
+#team {
+  background-image: url("../img/bg.jpg"); }
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center; }
+  .team-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid rgba(0, 0, 0, 0.1); }
+  .team-member h4 {
+    color: #5c3f5c;
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none; }
+  .team-member p {
+    margin-top: 0; }
+
+.team-member-button {
+  text-align: right; }
+  .team-member-button a {
+    margin-top: 10px; }
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em; }
+
+a {
+  color: #5c3f5c; }
+  a:focus, a:hover {
+    text-decoration: none;
+    color: #1f161f; }
+
+.bg-black {
+  background-color: #000000 !important; }
+
+.bg-primary {
+  background-color: #5c3f5c !important; }
+
+.text-primary {
+  color: #5c3f5c !important; }
+
+footer {
+  padding: 5rem 0; }
+
+/*# sourceMappingURL=newfile.css.map */
