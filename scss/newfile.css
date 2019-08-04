@@ -90,10 +90,6 @@
   .masthead h2 {
     max-width: 20rem;
     font-size: 1rem; }
-  @media (min-width: 768px) {
-    .masthead h1 {
-      font-size: 4rem;
-      line-height: 4rem; } }
   @media (min-width: 992px) {
     .masthead {
       height: 100vh;
@@ -397,6 +393,7 @@
         color: #fff; }
 
 #team {
+  margin: 0;
   background-image: url("../img/bg.jpg"); }
 
 .team-member {
